@@ -2,8 +2,7 @@
 import { useState } from "react";
 import "./App.css";
 
-const API = "https://grey-fundamentals-painted-macintosh.trycloudflare.com";
-
+const API =  "https://activator-imperfect-unworldly.ngrok-free.dev";
 function StandardCard({ item, index }) {
   const title =
     item.title?.trim() ||
